@@ -52,6 +52,18 @@ public class FizzBuzzTDDTest {
         Assert.assertEquals("FizzBuzz",fizzBuzz.convert(15));
     }
 
+    @Test
+    public void ifMultiplesBy15IsTheSameAsModuloFrom3And5(){
+
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        for (int i = 1; i <= 100; i++){
+
+            if (i%3 == 0 && i%5 ==0) {
+                Assert.assertEquals("FizzBuzz", fizzBuzz.convert(i));
+            }
+        }
+    }
 
 
 }
