@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="273">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -166,12 +166,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree">
+  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive">
     <configuration name="FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzTDD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTDDTest" />
       <option name="METHOD_NAME" value="fizzBuzzConverterLeavesNormalNumbersAlone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTDDTest" />
+      <option name="METHOD_NAME" value="fizzBuzzConverterMultiplesOfFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" />
       </list>
@@ -225,6 +236,12 @@
     </history-entry>
     <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfThree - 2019.05.30 at 21h 24m 50s.xml">
       <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfThree - 2019.05.30 at 21h 26m 50s.xml">
+      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfFive - 2019.05.30 at 21h 28m 39s.xml">
+      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -288,20 +305,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTDDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="273">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
