@@ -1,5 +1,5 @@
 public class FizzBuzzConverter {
     public String convert(int toConvertToFizzBuzz) {
-        return null;
+        return "1";
     }
 }
