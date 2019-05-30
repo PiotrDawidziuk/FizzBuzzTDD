@@ -31,5 +31,13 @@ public class FizzBuzzTDDTest {
 
     }
 
+    @Test
+    public void fizzBuzzConverterMultiplesOfThree(){
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        Assert.assertEquals("Fizz",fizzBuzz.convert(3));
+    }
+
+
 
 }
