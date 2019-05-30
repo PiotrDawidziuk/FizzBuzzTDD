@@ -1,6 +1,10 @@
 public class FizzBuzzConverter {
     public String convert(int toConvertToFizzBuzz) {
 
+        if (toConvertToFizzBuzz<0){
+            throw new IllegalArgumentException("Number can't be negative!");
+        }
+
         if (toConvertToFizzBuzz%15==0){
             return "FizzBuzz";
         }

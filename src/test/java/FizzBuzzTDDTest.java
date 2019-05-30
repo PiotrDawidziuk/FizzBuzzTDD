@@ -65,5 +65,14 @@ public class FizzBuzzTDDTest {
         }
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrownIllegalArgumentExceptionOnWrongParameters() {
+
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        fizzBuzz.convert(-1);
+    }
+
+
 
 }

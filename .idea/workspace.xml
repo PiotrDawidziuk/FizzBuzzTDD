@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a5864b4-32fd-4d29-931e-a01dbac0dfa7" name="Default Changelist" comment="" />
+    <list default="true" id="9a5864b4-32fd-4d29-931e-a01dbac0dfa7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="187">
-                <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+                <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,9 +74,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/FizzBuzzTDDTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java" />
       </list>
     </option>
   </component>
@@ -154,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest.shouldThrownIllegalArgumentExceptionOnWrongParameters">
     <configuration name="FizzBuzzTDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzTDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -184,16 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FizzBuzzTDD" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTDDTest" />
-      <option name="METHOD_NAME" value="fizzBuzzConverterMultiplesOfThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FizzBuzzTDDTest.ifMultiplesBy15IsTheSameAsModuloFrom3And5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzTDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -204,13 +196,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTDDTest.shouldThrownIllegalArgumentExceptionOnWrongParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTDDTest" />
+      <option name="METHOD_NAME" value="shouldThrownIllegalArgumentExceptionOnWrongParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTDDTest.shouldThrownIllegalArgumentExceptionOnWrongParameters" />
         <item itemvalue="JUnit.FizzBuzzTDDTest" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.ifMultiplesBy15IsTheSameAsModuloFrom3And5" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFiveAndThree" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" />
-        <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -310,10 +312,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -327,13 +332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzzConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
         </state>
       </provider>
     </entry>
