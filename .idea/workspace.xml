@@ -30,20 +30,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="375">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="833" column="8" selection-start-line="833" selection-start-column="8" selection-end-line="833" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -166,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive">
+  <component name="RunManager" selected="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFiveAndThree">
     <configuration name="FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzTDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -187,6 +178,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFiveAndThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTDDTest" />
+      <option name="METHOD_NAME" value="fizzBuzzConverterMultiplesOfFiveAndThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzTDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -199,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFiveAndThree" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfThree" />
         <item itemvalue="JUnit.FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" />
@@ -219,9 +221,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterLeavesNormalNumbersAlone - 2019.05.30 at 21h 15m 55s.xml">
-      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterLeavesNormalNumbersAlone - 2019.05.30 at 21h 16m 46s.xml">
       <configuration name="FizzBuzzTDDTest.fizzBuzzConverterLeavesNormalNumbersAlone" configurationId="JUnit" />
     </history-entry>
@@ -242,6 +241,15 @@
     </history-entry>
     <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfFive - 2019.05.30 at 21h 28m 39s.xml">
       <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfFive - 2019.05.30 at 21h 29m 58s.xml">
+      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfFive - 2019.05.30 at 21h 29m 59s.xml">
+      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFive" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTDDTest_fizzBuzzConverterMultiplesOfFiveAndThree - 2019.05.30 at 21h 31m 43s.xml">
+      <configuration name="FizzBuzzTDDTest.fizzBuzzConverterMultiplesOfFiveAndThree" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -307,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTDDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="375">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

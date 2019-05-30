@@ -45,6 +45,13 @@ public class FizzBuzzTDDTest {
         Assert.assertEquals("Buzz",fizzBuzz.convert(5));
     }
 
+    @Test
+    public void fizzBuzzConverterMultiplesOfFiveAndThree(){
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+
+        Assert.assertEquals("FizzBuzz",fizzBuzz.convert(15));
+    }
+
 
 
 }
