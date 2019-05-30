@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class FizzBuzzTDDTest {
@@ -24,7 +25,8 @@ public class FizzBuzzTDDTest {
 
     @Test
     public void fizzBuzzConverterLeavesNormalNumbersAlone(){
-       fizzBuzz = new FizzBuzzConverter();
+        FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
+        Assert.assertEquals("1",fizzBuzz.convert(1));
 
     }
 
